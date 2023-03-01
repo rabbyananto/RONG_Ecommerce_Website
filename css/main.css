@@ -28,6 +28,12 @@ body {
   border-color: var(--pink);
 }
 
+/* text color */
+
+.text-primary {
+  color: var(--pink) !important ;
+}
+
 /* navbar */
 .navbar {
   box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
@@ -81,6 +87,17 @@ body {
   background-color: var(--pink) !important;
   color: #fff !important;
   border-color: var(--pink) !important ;
+}
+.filter-button-group .btn:hover {
+  color: #fff !important;
+}
+
+.collection-img span {
+  top: 20px;
+  right: 20px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
 }
 
 /* media queries */
